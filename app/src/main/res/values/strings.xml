@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Questionnaire survey</string>
+    <string name="tv_text_title">Android小测试</string>
+    <string name="tv_name">你的姓名？</string>
+    <string name="et_name">请输入你的姓名</string>
+    <string name="tv_question_1">1、下列不是手机操作系统的是？</string>
+    <string name="rb_android">android</string>
+    <string name="rb_ios"> IOS</string>
+    <string name="rb_vista">windows vista</string>
+    <string name="tv_question_2">2、Android的VM虚拟机是哪个？</string>
+    <string name="rb_ART">ART</string>
+    <string name="rb_JVM">JVM</string>
+    <string name="rb_framework">framework</string>
+    <string name="tv_question_3">3、AndroidVM虚拟机中运行的文件的后缀名为？</string>
+    <string name="rb_class">class</string>
+    <string name="rb_apk">apk</string>
+    <string name="rb_dex">dex</string>
+    <string name="tv_question_4">4、MediaPlayer对象从停止状态到播放状态调用的方法是？</string>
+    <string name="cb_prepare">prepare()</string>
+    <string name="cb_start">start()</string>
+    <string name="cb_reset">reset()</string>
+    <string name="cb_release">release()</string>
+    <string name="bt_submit">提交</string>
+    <string name="bt_score">评分</string>
+</resources>

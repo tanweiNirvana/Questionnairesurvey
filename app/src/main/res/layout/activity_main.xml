@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a46146.questionnairesurvey.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/tv_title_style"
+            android:text="@string/tv_text_title" />
+
+        <TextView
+            style="@style/tv_style"
+            android:text="@string/tv_name" />
+
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/et_style"
+            android:hint="@string/et_name" />
+
+        <TextView
+            style="@style/tv_style"
+            android:text="@string/tv_question_1" />
+
+        <RadioGroup
+            android:id="@+id/rg_system"
+            style="@style/ViewGroup_style">
+
+            <RadioButton
+                android:id="@+id/rb_android"
+                style="@style/rb_style"
+                android:text="@string/rb_android" />
+
+            <RadioButton
+                android:id="@+id/rb_ios"
+                style="@style/rb_style"
+                android:text="@string/rb_ios" />
+
+            <RadioButton
+                android:id="@+id/rb_vista"
+                style="@style/rb_style"
+                android:text="@string/rb_vista" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/tv_style"
+            android:text="@string/tv_question_2" />
+
+        <RadioGroup
+            android:id="@+id/rg_virtual"
+            style="@style/ViewGroup_style">
+
+            <RadioButton
+                android:id="@+id/rb_ART"
+                style="@style/rb_style"
+                android:text="@string/rb_ART" />
+
+            <RadioButton
+                android:id="@+id/rb_JVM"
+                style="@style/rb_style"
+                android:text="@string/rb_JVM" />
+
+            <RadioButton
+                android:id="@+id/rb_framework"
+                style="@style/rb_style"
+                android:text="@string/rb_framework" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/tv_style"
+            android:text="@string/tv_question_3" />
+
+        <RadioGroup
+            android:id="@+id/rg_suffix"
+            style="@style/ViewGroup_style">
+
+            <RadioButton
+                android:id="@+id/rb_class"
+                style="@style/rb_style"
+                android:text="@string/rb_class" />
+
+            <RadioButton
+                android:id="@+id/rb_apk"
+                style="@style/rb_style"
+                android:text="@string/rb_apk" />
+
+            <RadioButton
+                android:id="@+id/rb_dex"
+                style="@style/rb_style"
+                android:text="@string/rb_dex" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/tv_style"
+            android:text="@string/tv_question_4" />
+
+        <LinearLayout style="@style/ViewGroup_style">
+
+            <CheckBox
+                android:id="@+id/cb_prepare"
+                style="@style/cb_style"
+                android:text="@string/cb_prepare" />
+
+            <CheckBox
+                android:id="@+id/cb_start"
+                style="@style/cb_style"
+                android:text="@string/cb_start" />
+
+            <CheckBox
+                android:id="@+id/cb_reset"
+                style="@style/cb_style"
+                android:text="@string/cb_reset" />
+
+            <CheckBox
+                android:id="@+id/cb_release"
+                style="@style/cb_style"
+                android:text="@string/cb_release" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/bt_style"
+            android:text="@string/bt_submit" />
+
+        <Button
+            android:id="@+id/btn_score"
+            style="@style/bt_style"
+            android:text="@string/bt_score" />
+    </LinearLayout>
+</ScrollView>
